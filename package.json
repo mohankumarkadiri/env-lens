@@ -1,0 +1,35 @@
+{
+  "name": "env-lens",
+  "displayName": "env-lens",
+  "description": "Inline preview of .env variables when hovered over process.env.* variables",
+  "version": "1.0.0",
+  "publisher": "mohankumarkadiri",
+  "repository": "https://github.com/mohankumarkadiri/env-lens",
+  "author": "mohankumarkadiri <kadirimohankumar1709@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.103.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onLanguage:javascript",
+    "onLanguage:typescript"
+  ],
+  "main": "./extension.js",
+  "contributes": {},
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "yarn run lint",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.103.0",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "22.x",
+    "eslint": "^9.32.0",
+    "@vscode/test-cli": "^0.0.11",
+    "@vscode/test-electron": "^2.5.2"
+  }
+}
