@@ -2,7 +2,7 @@
   "name": "env-lens",
   "displayName": "env-lens",
   "description": "Inline preview of .env variables when hovered over process.env.* variables",
-  "version": "1.0.2",
+  "version": "1.0.1",
   "icon": "logo.png",
   "publisher": "mohankumarkadiri",
   "repository": "https://github.com/mohankumarkadiri/env-lens",
